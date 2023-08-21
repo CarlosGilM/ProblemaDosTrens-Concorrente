@@ -7,7 +7,7 @@
 O desafio dos trens está intrinsecamente ligado à premissa de que dois trens não podem compartilhar simultaneamente a mesma região crítica, que, no contexto do problema, é representada por uma ponte de via única. No cenário proposto, a travessia simultânea de dois trens na ponte inevitavelmente resultaria em uma colisão. Na programação concorrente, duas abordagens comuns para enfrentar esse problema são a utilização de variáveis de travamento e a estrita alternância.
 
  # Execução
-<img width="720" src="assets/Exec-Trens.gif">
+<img src="assets/Exec-Trens.gif">
 Execução parcial utilizando a solução Variável de travamento.
 
 # Autores
