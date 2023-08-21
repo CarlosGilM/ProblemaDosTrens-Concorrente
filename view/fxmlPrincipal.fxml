@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPaneInicial" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.controllerGeral">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Imagem-att.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="train01IMG" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/TremAmareloD.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="train02IMG" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/TremAzulE.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="operator" fitHeight="150.0" fitWidth="10.0" layoutX="50.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/-.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="operator1" fitHeight="150.0" fitWidth="10.0" layoutX="255.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/+.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="operator2" fitHeight="150.0" fitWidth="10.0" layoutX="531.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/-.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="operator11" fitHeight="150.0" fitWidth="10.0" layoutX="736.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/+.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="view1" fitHeight="150.0" fitWidth="50.0" layoutX="133.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/TremAmareloD.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="view2" fitHeight="150.0" fitWidth="50.0" layoutX="612.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/TremAzulD.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderYellow" blockIncrement="3.0" layoutX="66.0" layoutY="378.0" majorTickUnit="1.0" max="10.0" min="1.0" minorTickCount="0" prefHeight="36.0" prefWidth="184.0" rotate="-180.0" value="5.0" />
+      <Slider fx:id="sliderBlue" blockIncrement="3.0" layoutX="545.0" layoutY="378.0" majorTickUnit="1.0" max="10.0" min="1.0" minorTickCount="0" prefHeight="36.0" prefWidth="184.0" rotate="180.0" value="5.0" />
+      <ImageView fx:id="imgInit" fitHeight="450.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/bgInicial.png" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="choiceBox1" layoutX="226.0" layoutY="236.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="348.0" style="-fx-background-color: #ffd24a; -fx-border-color: white; -fx-border-width: 3;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ChoiceBox>
+      <ChoiceBox fx:id="choiceBox02" layoutX="319.0" layoutY="328.0" prefHeight="31.0" prefWidth="163.0" style="-fx-background-color: #ffd24a; -fx-border-color: white; -fx-border-width: 3;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ChoiceBox>
+      <Button fx:id="buttonInit" layoutX="319.0" layoutY="384.0" mnemonicParsing="false" onMouseClicked="#clickIniciar" prefHeight="25.0" prefWidth="163.0" style="-fx-border-color: #ffd24a; -fx-background-color: white; -fx-border-width: 3;" text="INICIAR">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="pare01" fitHeight="35.0" fitWidth="50.0" layoutX="217.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/pare-Yellow.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pare02" fitHeight="35.0" fitWidth="50.0" layoutX="551.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assets/pare-Yellow.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
